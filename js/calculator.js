@@ -18,7 +18,7 @@ panel.addEventListener('click', function( event ) {
 			tablo.value = eval( tablo.value );
             
 		} catch(e) {
-			console.log( e.name + ': ' + e.message );
+			console.log( e );
 		}
         
 	} else if( data == 'deletion' ) {
