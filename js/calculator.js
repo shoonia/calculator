@@ -18,9 +18,7 @@ panel.addEventListener( 'click', function (event) {
 		try {
 			tablo.value = eval( tablo.value );
             
-		} catch(e) {
-			console.log(e);
-		}
+		} catch(e) {}
         
 	} else if (data == 'deletion') {
 		tablo.value = tablo.value.slice(0, -1);
