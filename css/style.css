@@ -1,7 +1,7 @@
 * {
-  padding:0;
-  margin:0;
-  outline:none;
+  padding: 0;
+  margin: 0;
+  outline: none;
   
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -14,17 +14,17 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.title{
-  font-weight:normal;
-  font-size:20px;
+.title {
+  font-weight: normal;
+  font-size: 20px;
 }
 
-.wrapper{
+.wrapper {
   width: 245px;
-  padding:10px;
-  margin:100px auto;
-  color:#1E395B;
-  border:1px solid #8797AA;
+  padding: 10px;
+  margin: 100px auto;
+  color: #1E395B;
+  border: 1px solid #8797AA;
   background: #D9E4F1;
   
   -webkit-border-radius: 4px;
@@ -40,27 +40,27 @@ body{
       -ms-user-select: none;
 }
 
-#tablo{
+#tablo {
   font-family: Monospace;
-  font-size:19px;
-  text-align:right;
-  width:100%;
-  border:1px solid #8797AA;
-  padding:10px 5px;
+  font-size: 19px;
+  text-align: right;
+  width: 100%;
+  border: 1px solid #8797AA;
+  padding: 10px 5px;
   
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
 }
 
-#tablo::-webkit-input-placeholder{color:#1E395B}
-     #tablo:-ms-input-placeholder{color:#1E395B}
-         #tablo::-moz-placeholder{color:#1E395B}
-          #tablo:-moz-placeholder{color:#1E395B}
+#tablo::-webkit-input-placeholder{ color: #1E395B }
+     #tablo:-ms-input-placeholder{ color: #1E395B }
+         #tablo::-moz-placeholder{ color: #1E395B }
+          #tablo:-moz-placeholder{ color: #1E395B }
 
-.section{
-  width:100%;
-  padding:5px;
+.section {
+  width: 100%;
+  padding: 5px;
 }
 
 .snap-row{
@@ -69,7 +69,7 @@ body{
 
 .snap {
   display: inline-block;
-  width:50px;
+  width:  50px;
   height: 35px;
   font-family: Monospace;
   font-size: 18px;
@@ -86,12 +86,12 @@ body{
           transition: background .3s;
 }
 
-.snap:hover{
-  background:#FFE367;
+.snap:hover {
+  background: #FFE367;
 }
 
-.snap:active{
-  -webkit-box-shadow:inset 1px 1px 0 #8797AA;
-     -moz-box-shadow:inset 1px 1px 0 #8797AA;
-          box-shadow:inset 1px 1px 0 #8797AA;
+.snap:active {
+  -webkit-box-shadow: inset 1px 1px 0 #8797AA;
+     -moz-box-shadow: inset 1px 1px 0 #8797AA;
+          box-shadow: inset 1px 1px 0 #8797AA;
 }
