@@ -1,27 +1,25 @@
 const tablo = document.getElementById('tablo');
 const panel = document.getElementById('panel');
 
-panel.addEventListener( 'click', function (event) {
+panel.addEventListener('click', function (event) {
+    'use strict';
 
-  'use strict';
+    let data = event.target.value;
 
-  let data = event.target.value;
+    if (!data) return;
 
-  if (!data) return;
+    if (data === 'clean') {
+        tablo.value = '';
 
-  if (data === 'clean') {
-    tablo.value = '';
+    } else if (data === 'total' && tablo.value !== '') {
+        try {
+            tablo.value = eval( tablo.value );
+        } catch (e) {}
 
-  } else if (data === 'total' && tablo.value) {
+    } else if (data === 'deletion') {
+        tablo.value = tablo.value.slice( 0, -1 );
 
-    try {
-      tablo.value = eval( tablo.value );
-    } catch (e) {}
-
-  } else if (data === 'deletion') {
-    tablo.value = tablo.value.slice( 0, -1 );
-
-  } else if (data !== 'total') {
-    tablo.value += data;
-  }
+    } else if (data !== 'total') {
+        tablo.value += data;
+    }
 });

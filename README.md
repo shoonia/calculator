@@ -1,3 +1,3 @@
 # Calculator
 
-See how it works: [CodePen](https://codepen.io/shoonia/full/YQKreQ)
+See how it works: [shoonia.github.io/calculator](https://shoonia.github.io/calculator/)
